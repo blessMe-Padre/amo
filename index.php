@@ -2,12 +2,14 @@
   get_header();
 ?>
     <main>
+
       <section class="main">
         <div class="container">
           <div class="main__wrapper">
             <h1 class="title main__title">Внедрение и&nbsp;автоматизация amoCRM под ключ для вашего бизнеса</h1>
             <div class="main__inner">
-              <button class="main__btn popup-open-btn">Рассчитать стоимость</button>
+              <!-- <button class="main__btn popup-open-btn">Рассчитать стоимость</button> -->
+              <?php the_content(); ?>
               <!-- <button class="main__btn popup-open-btn">Заказать звонок</button> -->
             </div>
             <div class="main__img">
